@@ -28,3 +28,6 @@ git push
 
 #checking status after all again
 git status
+
+
+# [V2] features for future
