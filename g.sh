@@ -10,11 +10,11 @@ git add .
 git status
 
 #Read the user input 
-echo "Enter your commit message"
-read commit_message
+#echo "Enter your commit message"
+#read commit_message
 
 #Commiting the changes
-git commit -m "$commit_message"
+git commit -m "$1"
 
 #status after commiting the files
 git status
