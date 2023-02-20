@@ -1,9 +1,8 @@
 #!/bin/bash
-echo Enter commit message!
-read MESSAGE
-echo $MESSAGE
-
-git st
+echo "Hi"
+git status
 git add .
-git commit -m"$MESSAGE"
-
+#Read the user input 
+echo "Enter your commit message"
+read commit_message
+echo "You entered $commit_message"
