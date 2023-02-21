@@ -13,7 +13,7 @@ git status
 #echo "Enter your commit message"
 #read commit_message
 
-#Commiting the changes
+#Commiting the changes and commandline arguments
 git commit -m "$1"
 
 #status after commiting the files
